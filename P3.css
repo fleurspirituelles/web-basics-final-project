@@ -1,0 +1,170 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color: #fefcfd;
+}
+
+header {
+  padding: 0px;
+  text-align: center;
+  background: #fefcfd;
+}
+
+header img {
+  width: 35%;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #E50B4C;
+}
+
+nav a {
+  display: block;
+  color: #fefcfd;
+  text-align: center;
+  padding: 16px 17px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fefcfd;
+  color: #E50B4C;
+}
+
+.firstcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.secondcolumn {
+  float: left;
+  width: 25%;
+  background-color: #fefcfd;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: #fefcfd;
+  padding: 20px;
+}
+
+.card p {
+  text-align: justify;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+li {
+  padding: 10px;
+}
+
+li img {
+  width: 7%;
+  margin-right: 15px;
+  float: left;
+}
+
+.aboutme img {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.gif img {
+  width: 20%;
+  border: none;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 16px;
+  color: #E50B4C;
+  padding-bottom: 10px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #E50B4C;
+}
+
+form {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefcfd;
+  padding: 0px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E50B4C;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px #555555;
+}
+
+.button:hover {
+  background-color: #ed8aa8
+}
+
+.button:active {
+  color: #E50B4C;
+  background-color: #fefcfd;
+  box-shadow: 0 1px #555555;
+  transform: translateY(4px);
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 20px;
+  background: #E50B4C;
+  margin-top: 20px;
+}
+
+footer h4 {
+  text-align: center;
+  color: #fefcfd
+}
+
+@media screen and (max-width: 800px) {
+
+  .firstcolumn,
+  .secondcolumn {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
