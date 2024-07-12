@@ -1,249 +1,248 @@
-<!-- Talitha Maria Vieira, SC3012522.-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <title>My heart is shalalala!</title>
   <style>
-/* Modifica a tag body e tudo o que está dentro dela. Neste caso, especifica fonte, padding, e cor de fundo.*/
-  body {
-    font-family: Arial;
-    padding: 10px;
-    background-color: #fefcfd;
-  }
-/* Modifica somente o header.*/
-  header {
-    padding: 0px;
-    text-align: center;
-    background: #fefcfd;
-  }
-/* Modifica as imagens contidas no header. Neste caso, o tamanho.*/
-  header img {
-    width: 35%;
-  }
-/* Modifica a tag nav.*/
-  nav {
-    overflow: hidden;
-    background-color: #E50B4C;
-  }
-/* Modifica as âncoras (links) da tag nav apenas.*/
-  nav a {
-    display: block;
-    color: #fefcfd;
-    text-align: center;
-    padding: 16px 17px;
-    text-decoration: none;
-  }
-/* Modifica a tag nav. Neste caso, especifica o que acontece ao passar o cursor por cima da navegação.*/
-  nav a:hover {
-    background-color: #fefcfd;
-    color: #E50B4C;
-  }
-/* Modifica a primeira coluna da página.*/
-  .firstcolumn {
-    float:left;
-    width: 25%;
-    padding-left: 20px;
-  }
-/* Modifica a segunda coluna da página.*/
-  .secondcolumn {
-    float: left;
-    width: 25%;
-    background-color: #fefcfd;
-    padding-left: 20px;
-  }
-/* Modifica cards. Quando a classe é chamada, modifica a cor de fundo e o padding do conteúdo dentro dela.*/
-  .card {
-    background-color: #fefcfd;
-    padding: 20px;
-  }
-/* Modifica a tag p dentro de um card.*/
-  .card p {
-    text-align: justify;
-  }
-/* Modifica a lista ordenada. Neste caso, modifica o indicador da ordem, sendo um número decimal com 0 à esquerda.*/
-  ol {
-    list-style-type: decimal-leading-zero;
-  }
-/* Modifica o conteúdo dentro dos itens da lista.*/
-  li {
-    padding: 10px;
-  }
-/* Modifica as imagens dos itens da lista. Neste caso muda sua posição e tamanho.*/
-  li img {
-    width: 7%;
-    margin-right: 15px;
-    float: left;
-  }
-/* Modifica as imagens que estiverem dentro da classe aboutme.*/
-  .aboutme img {
-    width: 35%;
-    border-radius: 50%;
-  }
-/* Modifica as imagens que estiverem dentro da classe gif.*/
-  .gif img {
-    width: 20%;
-    border: none;
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 20px;
-  }
-/* Modifica todas as imagens da página.*/
-  img {
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-/* Modifica todos os textos <p> da página.*/
-  p {
-    font-size: 16px;
-    color: #E50B4C;
-    padding-bottom: 10px;
-  }
-/* Modifica quaisquer tabelas da página.*/
-  table {
-    margin-left: auto;
-    margin-right: auto;
-  }
-/* Modifica todo e qualquer heading 2 da página.*/
-  h2 {
-    color: #E50B4C;
-  }
-/* Modifica o conteúdo dos formulários da página. Neste caso modifica alinhamento, posição, cor de fundo, padding...*/
-  form {
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-    background-color: #fefcfd;
-    padding: 0px;
-  }
-/* Classe button que modificará a tag button.*/
-  .button {
-    padding: 10px 15px;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #E50B4C;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 1px #555555;
-  }
-/* Modifica o button ao passar o cursor em cima.*/
-  .button:hover {background-color: #ed8aa8}
-/* Modifica o button ao clicar.*/
-  .button:active {
-    color: #E50B4C;
-    background-color: #fefcfd;
-    box-shadow: 0 1px #555555;
-    transform: translateY(4px);
-  }
-/* Centraliza o que ainda não foi centralizado em outras classes e tags. Neste caso, é aplicado nos buttons.*/
-  .center {
-    margin: auto;
-    padding: 10px;
-    width: 50%;
-  }
-/* Modifica as linhas da página. Nesta só se encontra uma, que encontra duas colunas.*/
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-/* Modifica a tag footer. Neste caso, não modifica o texto.*/
-  footer {
-    padding: 20px;
-    background: #E50B4C;
-    margin-top: 20px;
-  }
-/* Modifica o texto <h4> dentro do footer.*/
-  footer h4 {
-    text-align: center;
-    color: #fefcfd
-  }
-/* Quando o usuário altera o tamanho da janela do navegador, este código modifica a disposição das duas colunas para que o conteúdo se torne mais legível, agradável. 
-    Neste caso, ocorre quando o tamanho da janela se torna menor que 800 pixels.*/
-  @media screen and (max-width: 800px) {
-    .firstcolumn, .secondcolumn {
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background-color: #fefcfd;
+    }
+
+    header {
+      padding: 0px;
+      text-align: center;
+      background: #fefcfd;
+    }
+
+    header img {
+      width: 35%;
+    }
+
+    nav {
+      overflow: hidden;
+      background-color: #E50B4C;
+    }
+
+    nav a {
+      display: block;
+      color: #fefcfd;
+      text-align: center;
+      padding: 16px 17px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #fefcfd;
+      color: #E50B4C;
+    }
+
+    .firstcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    .secondcolumn {
+      float: left;
+      width: 25%;
+      background-color: #fefcfd;
+      padding-left: 20px;
+    }
+
+    .card {
+      background-color: #fefcfd;
+      padding: 20px;
+    }
+
+    .card p {
+      text-align: justify;
+    }
+
+    ol {
+      list-style-type: decimal-leading-zero;
+    }
+
+    li {
+      padding: 10px;
+    }
+
+    li img {
+      width: 7%;
+      margin-right: 15px;
+      float: left;
+    }
+
+    .aboutme img {
+      width: 35%;
+      border-radius: 50%;
+    }
+
+    .gif img {
+      width: 20%;
+      border: none;
+      display: block;
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+
+    img {
+      display: block;
       width: 100%;
-      padding: 0;
       margin-left: auto;
       margin-right: auto;
     }
-  }
-/* Utilizei alguns elementos de flexbox mas acabei modificando um pouco com o que eu já havia aprendido. Alguns outros recursos como align-self não chegavam onde eu gostaria então os removi.*/
-</style>
+
+    p {
+      font-size: 16px;
+      color: #E50B4C;
+      padding-bottom: 10px;
+    }
+
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      color: #E50B4C;
+    }
+
+    form {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      background-color: #fefcfd;
+      padding: 0px;
+    }
+
+    .button {
+      padding: 10px 15px;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #E50B4C;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 1px #555555;
+    }
+
+    .button:hover {
+      background-color: #ed8aa8
+    }
+
+    .button:active {
+      color: #E50B4C;
+      background-color: #fefcfd;
+      box-shadow: 0 1px #555555;
+      transform: translateY(4px);
+    }
+
+    .center {
+      margin: auto;
+      padding: 10px;
+      width: 50%;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      padding: 20px;
+      background: #E50B4C;
+      margin-top: 20px;
+    }
+
+    footer h4 {
+      text-align: center;
+      color: #fefcfd
+    }
+
+    @media screen and (max-width: 800px) {
+
+      .firstcolumn,
+      .secondcolumn {
+        width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <a href="P1.html"><img src="https://64.media.tumblr.com/f14de9bded49e503f8348616a4c72969/tumblr_ok3hvmlQrh1vwdm66o6_500.jpg" alt="Varinha mágica de Sailor Moon."></a>
-</header>
+  <header>
+    <a href="P1.html"><img src="https://64.media.tumblr.com/f14de9bded49e503f8348616a4c72969/tumblr_ok3hvmlQrh1vwdm66o6_500.jpg" alt="Varinha mágica de Sailor Moon."></a>
+  </header>
 
-<nav>
-  <a href="P1.html" title="Home">You are my starlight, my heart’s moonlight!</a>
-  <a href="P2.html" title="Here's Another Song!">I like everything about you!</a>
-  <a href="P3.html" title="Pick One!">What am I gonna do? What am I gonna do?</a>
-</nav>
-<!-- Havia modificado o texto para combinar a fonte mas estava MUITO cansativo para os olhos ou fora da paleta idealizada. Achei melhor manter a cor preta tanto no formulário quanto na lista de Pokémons. 
-  Ao usar span apenas em alguns elementos, os mesmos se tornaram muito fortes. Acredito que o melhor neste caso é 'menos é mais'.-->
-<main>
-  <div class="row">
-    <div class="secondcolumn">
-      <div class="card">
-        Lista de clãs no Poketíbia entre os quais a Talitha deve escolher por ordem de puro favoritismo (que deve ser ignorado. Choose wisely!) e seus principais representantes (na opinião dela):<br>
-        <ol>
-          <li>Seavell: Alolan Sandslash, Empoleon, Mega Blastoise, Shiny Cloyster, Shiny Vaporeon.
-            <ul>
-              <li><img src="https://wiki.pokexgames.com/images/9/9d/Water.png" title="Água" alt="Representação do bônus do clã Seavell, elemento água.">Água, Atk 25%, Def 25%.</li>
-              <li><img src="https://wiki.pokexgames.com/images/7/77/Ice.png" title="Gelo" alt="Representação do bônus do clã Seavell, elemento gelo.">Gelo, Atk 28%, Def 28%.</li>
-            </ul>
-          </li>
-          <li>Psycraft: Espeon, Mega Alakazam, Shiny Alakazam, Shiny Mr. Mime, Shiny Sylveon.
-            <ul>
-              <li><img src="https://wiki.pokexgames.com/images/2/21/Psychic.png" title="Psíquico" alt="Representação do bônus do clã Psycraft, elemento psíquico.">Psíquico, Atk 28%, Def 28%.</li>
-              <li><img src="https://wiki.pokexgames.com/images/4/43/Fairy.png" title="Fada" alt="Representação do bônus do clã Psycraft, elemento fada.">Fada, Atk 28%, Def 28%.</li>
-            </ul>
-          <li>Malefic: Mega Absol, Shiny Gengar, Shiny Nidoking, Shiny Venomoth, Shiny Venusaur.
-            <ul>
-              <li><img src="https://wiki.pokexgames.com/images/5/59/Ghost1.png" title="Fantasma" alt="Representação do bônus do clã Malefic, elemento fantasma.">Fantasma, Atk 25%, Def 25%.</li>
-              <li><img src="https://wiki.pokexgames.com/images/0/03/Poison1.png" title="Veneno" alt="Representação do bônus do clã Malefic, elemento veneno.">Veneno, Atk 28%, Def 28%.</li>
-              <li><img src="https://wiki.pokexgames.com/images/9/98/Dark1.png" title="Noturno" alt="Representação do bônus do clã Malefic, elemento noturno.">Noturno, Atk 28%, Def 28%.</li>
-            </ul>
-          <li>Naturia: Mega Scizor, Shiny Leafeon, Shiny Scyther, Shiny Venusaur, Shiny Vileplume.
-            <ul>
-              <li><img src="https://wiki.pokexgames.com/images/c/c5/Grass.png" title="Planta" alt="Representação do bônus do clã Naturia, elemento planta.">Planta, Atk 25%, Def 25%.</li>
-              <li><img src="https://wiki.pokexgames.com/images/7/7d/Bug.png" title="Inseto" alt="Representação do bônus do clã Naturia, elemento inseto.">Inseto, Atk 28%, Def 28%.</li>
-            </ul>
-          <li>Raibolt: Alolan Raichu, Giant Galvantula, Shiny Electrode, Shiny Jolteon, Shiny Pachirisu.
-            <ul>
-              <li><img src="https://wiki.pokexgames.com/images/2/2f/Electric.png" title="Elétrico" alt="Representação do bônus do clã Raibolt, elemento elétrico.">Elétrico, Atk 28%, Def 28%.</li>
-            </ul>
-          </li>
-        </ol>
-        <form>
-          <label><input type="radio" name="clã" value="1">Eu escolho Red Gyarados, eu escolho Seavell!</label><br>
-          <label><input type="radio" name="clã" value="2">Eu escolho Shiny Alakazam, eu escolho Psycraft!</label><br>
-          <label><input type="radio" name="clã" value="3">Eu escolho Shiny Honchkrow, eu escolho Malefic!</label><br>
-          <label><input type="radio" name="clã" value="4">Eu escolho Shiny Meganium, eu escolho Naturia!</label><br>
-          <label><input type="radio" name="clã" value="5">Eu escolho Shiny Electabuzz, eu escolho Raibolt!</label><br><br>
-          <div class="center">
-            <!-- O button de tipo submit não funcionará, não há como coletar os dados.  
-            O button de tipo reset deve funcionar normalmente.-->
+  <nav>
+    <a href="P1.html" title="Home">You are my starlight, my heart’s moonlight!</a>
+    <a href="P2.html" title="Here's Another Song!">I like everything about you!</a>
+    <a href="P3.html" title="Pick One!">What am I gonna do? What am I gonna do?</a>
+  </nav>
+
+  <main>
+    <div class="row">
+      <div class="secondcolumn">
+        <div class="card">
+          Lista de clãs no Poketíbia entre os quais a Talitha deve escolher por ordem de puro favoritismo (que deve ser ignorado. Choose wisely!) e seus principais representantes (na opinião dela):<br>
+          <ol>
+            <li>Seavell: Alolan Sandslash, Empoleon, Mega Blastoise, Shiny Cloyster, Shiny Vaporeon.
+              <ul>
+                <li><img src="https://wiki.pokexgames.com/images/9/9d/Water.png" title="Água" alt="Representação do bônus do clã Seavell, elemento água.">Água, Atk 25%, Def 25%.</li>
+                <li><img src="https://wiki.pokexgames.com/images/7/77/Ice.png" title="Gelo" alt="Representação do bônus do clã Seavell, elemento gelo.">Gelo, Atk 28%, Def 28%.</li>
+              </ul>
+            </li>
+            <li>Psycraft: Espeon, Mega Alakazam, Shiny Alakazam, Shiny Mr. Mime, Shiny Sylveon.
+              <ul>
+                <li><img src="https://wiki.pokexgames.com/images/2/21/Psychic.png" title="Psíquico" alt="Representação do bônus do clã Psycraft, elemento psíquico.">Psíquico, Atk 28%, Def 28%.</li>
+                <li><img src="https://wiki.pokexgames.com/images/4/43/Fairy.png" title="Fada" alt="Representação do bônus do clã Psycraft, elemento fada.">Fada, Atk 28%, Def 28%.</li>
+              </ul>
+            <li>Malefic: Mega Absol, Shiny Gengar, Shiny Nidoking, Shiny Venomoth, Shiny Venusaur.
+              <ul>
+                <li><img src="https://wiki.pokexgames.com/images/5/59/Ghost1.png" title="Fantasma" alt="Representação do bônus do clã Malefic, elemento fantasma.">Fantasma, Atk 25%, Def 25%.</li>
+                <li><img src="https://wiki.pokexgames.com/images/0/03/Poison1.png" title="Veneno" alt="Representação do bônus do clã Malefic, elemento veneno.">Veneno, Atk 28%, Def 28%.</li>
+                <li><img src="https://wiki.pokexgames.com/images/9/98/Dark1.png" title="Noturno" alt="Representação do bônus do clã Malefic, elemento noturno.">Noturno, Atk 28%, Def 28%.</li>
+              </ul>
+            <li>Naturia: Mega Scizor, Shiny Leafeon, Shiny Scyther, Shiny Venusaur, Shiny Vileplume.
+              <ul>
+                <li><img src="https://wiki.pokexgames.com/images/c/c5/Grass.png" title="Planta" alt="Representação do bônus do clã Naturia, elemento planta.">Planta, Atk 25%, Def 25%.</li>
+                <li><img src="https://wiki.pokexgames.com/images/7/7d/Bug.png" title="Inseto" alt="Representação do bônus do clã Naturia, elemento inseto.">Inseto, Atk 28%, Def 28%.</li>
+              </ul>
+            <li>Raibolt: Alolan Raichu, Giant Galvantula, Shiny Electrode, Shiny Jolteon, Shiny Pachirisu.
+              <ul>
+                <li><img src="https://wiki.pokexgames.com/images/2/2f/Electric.png" title="Elétrico" alt="Representação do bônus do clã Raibolt, elemento elétrico.">Elétrico, Atk 28%, Def 28%.</li>
+              </ul>
+            </li>
+          </ol>
+          <form>
+            <label><input type="radio" name="clã" value="1">Eu escolho Red Gyarados, eu escolho Seavell!</label><br>
+            <label><input type="radio" name="clã" value="2">Eu escolho Shiny Alakazam, eu escolho Psycraft!</label><br>
+            <label><input type="radio" name="clã" value="3">Eu escolho Shiny Honchkrow, eu escolho Malefic!</label><br>
+            <label><input type="radio" name="clã" value="4">Eu escolho Shiny Meganium, eu escolho Naturia!</label><br>
+            <label><input type="radio" name="clã" value="5">Eu escolho Shiny Electabuzz, eu escolho Raibolt!</label><br><br>
+            <div class="center"></div>
             <label><button class="button" type="submit">Decidi!</button></label>ㅤ<label><button class="button" type="reset">Limpar!</button></label>
-          </div>
+        </div>
         </form>
       </div>
     </div>
-  </div>
-</main>
+    </div>
+  </main>
 
-<footer>
+  <footer>
     <h4>Página criada por Talitha Maria Vieira (SC3012522) para a disciplina SUP.07974 (INWS1) - Introdução a Web.</h4>
-</footer>
-  
-  </body>
-  </html>
+  </footer>
+
+</body>
+
+</html>
